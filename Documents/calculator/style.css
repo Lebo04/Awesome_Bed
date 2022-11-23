@@ -1,0 +1,47 @@
+.container {
+    line-height: 100px;
+    border: solid;
+    width: 30%;
+    margin-top: 60px;
+  }
+  
+  /* #view {
+      
+       height: 70px;
+      line-height: 70px;
+      padding: 20px 20px;
+      
+      height: 100px; 
+  } */
+  
+  .button {
+      padding: 5px;
+  }
+  
+  .button input {
+      border: solid black 0.5px;
+      width: 100%;
+      background-color: transparent;
+  }
+  
+  .display {
+      border: none;
+      width: 50%;
+      text-align: right;
+      font-size: 25px;
+  }
+  
+  .button .submit {
+    background-color: rgb(74, 110, 253);
+  }
+  
+  .button .clear {
+      background-color: rgb(178, 174, 174);
+  }
+  
+  input[type = button]:hover {
+      background-color: crimson;
+  }
+  
+  
+  
