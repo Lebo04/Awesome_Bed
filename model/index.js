@@ -3,7 +3,7 @@ let db = require("../config");
 //----- Import bcrypt module
 let { hash, compare, hashSync } = require("bcrypt");
 //
-let { createToken } = require("../middleware//AuthenticatedUser");
+let { createToken } = require("../middleware/AuthenticatedUser");
 
 //-------- User class
 class User {
